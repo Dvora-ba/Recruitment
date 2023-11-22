@@ -1,6 +1,17 @@
-node_modules
-build
-npm-debug.log
-.nyc
+# Dependency directories
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
 .env
+.env.*
+
+# OS and editor files
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
